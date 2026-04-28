@@ -1,0 +1,16 @@
+
+# Business configuration for the churn pipeline.
+# These values change for business reasons, not code reasons.
+
+churn:
+  # Days of inactivity before a customer is considered churned.
+  # To be validated in Phase 2 (Lock churn definition with evidence).
+  inactivity_threshold_days: 90
+
+observation_period:
+  start: "2009-12-01"
+  end:   "2010-11-30"
+
+outcome_period:
+  start: "2010-12-01"
+  end:   "2011-12-09"
